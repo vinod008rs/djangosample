@@ -33,4 +33,4 @@ COPY . /app/
 EXPOSE 8000
 
 # Start Gunicorn server
-CMD ["gunicorn", "--bind", "0.0.0.0:8000", "CustomerManagement.wsgi:application"]
+CMD ["gunicorn", "--bind", "0.0.0.0:8000", "CustomerManagementCloud.wsgi:application"]
